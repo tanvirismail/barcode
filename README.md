@@ -1,5 +1,7 @@
 # Laravel Barcode Generator
 
+### suported barcode format: CODE 39
+
 ```php
 use TanvirIsmail\Barcode\Barcode;
 
