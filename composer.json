@@ -1,0 +1,19 @@
+{
+    "name": "TanvirIsmail/Barcode",
+    "description": "laravel Barcode package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tanvir mohmmad ismail",
+            "email": "tanvirismail@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            
+        }
+    }
+}
