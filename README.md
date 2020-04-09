@@ -1,9 +1,9 @@
-if use without laravel project, so include this.
+# Laravel Barcode Generator
+
 ```php
-include("Barcode.php");
-```
-```php
-$barcode = new TanvirIsmail\Barcode\Barcode;
+use TanvirIsmail\Barcode\Barcode;
+
+$barcode = new Barcode;
 $barcode->code('200300001');
 $barcode->type('code39');
 $barcode->height(100);
