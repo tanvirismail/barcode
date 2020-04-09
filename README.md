@@ -2,6 +2,8 @@
 
 ### suported barcode format: CODE 39
 
+![barcode](https://user-images.githubusercontent.com/32776445/78915992-a0dda580-7aae-11ea-85b6-dedd83a0bd06.png)
+
 ```php
 use TanvirIsmail\Barcode\Barcode;
 
