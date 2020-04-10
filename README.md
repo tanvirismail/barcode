@@ -1,6 +1,6 @@
 # Laravel Barcode Generator
 
-### suported barcode format: CODE39, CODE128 
+### supported barcode format: CODE39, CODE128 
 
 ![barcode](https://user-images.githubusercontent.com/32776445/78915992-a0dda580-7aae-11ea-85b6-dedd83a0bd06.png)
 
@@ -35,12 +35,14 @@ echo '<img src="data:image/png;base64,' . base64_encode($barcode->build()) . '">
 ## save
 ```php
 $barcode->extension('png');  // jpeg, png
-$barcode->path('barcode.png');
+$barcode->path('barcode.png');  // path with file name
 $barcode->save();
 ```
 
 ## download
 ```php
 $barcode->download(); 
-$barcode->download('test'); // if download as file name, then pass file name as a parameter
+// if download as file name
+$barcode->extension('png'); // default 'png'
+$barcode->download('test'); // file name without extention
 ```
